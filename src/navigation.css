@@ -1,0 +1,42 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* position: fixed; */
+    /* width: 100%; */
+    top: 0;
+    /* transition: top 0.3s; Transition effect when sliding down (and up) */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+    width: 100%;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    color: #363854;
+    text-align: center;
+    padding: 18px 11px;
+    text-decoration: none;
+}
+
+/* .menu .active {
+    background-color: #e0e0e0;
+    color: white;
+} */
+
+.menu li a:hover {
+    background-color: #e0e0e0;
+}

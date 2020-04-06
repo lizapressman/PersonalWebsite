@@ -1,38 +1,204 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#sections {
+  padding-right: 10vw;	
+  padding-left: 10vw;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* width: 100vw; */
+}
+#header {
+	height: 100vh; 
+	background-attachment: fixed;
+	background-position: center;
+	opacity: .9;
+}
+#break {
+	height: 60vh; 
+	background-attachment: fixed;
+	background-position: center;
+	opacity: .9;
+}
+.title {
+	padding-top: 40vh;
+	color: white;
+	font-family: sans-serif;
+	padding-left: 100px;
+}
+.title h1{
+	font-size: 70px;
+	padding-top: 0;
+	margin-top: 0;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-shadow: 5px 5px black;
+}
+.title h3{
+	text-shadow: 2px 2px black;
+	font-size: 40px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	/* background-color: #363854; */
+	text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+#about-me {
+  /* float: inline-start; */
+  display: flex;
+  justify-content: center;
+}
+#about {
+  padding-left: 5vw;
+}
+#experience {
+  justify-content: center;
+}
+#portfolio {
+  justify-content: center;
+}
+#contact p{
+	text-align: center;
+}
+#contact {
+	height: 100vh; 
+	background-attachment: fixed;
+	background-position: center;
+	opacity: .9;
+}
+hr {
+  width:100%;
+}
+.me {
+	padding-top: 130px;
+}
+.container {
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+h1 {
+	padding-top: 5%;
+	font-size: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+h2 {
+	font-size: 22px;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: lighter; 
+}
+h3 {
+	font-size: 15px;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: lighter; 
+}
+p {
+	font-family: sans-serif;
+	font-weight: lighter;
+	line-height: 1.5;
+	/* text-align: center; */
+}
+body {
+	/* background-color: #e0e0e0; */
+}
+li {
+	font-family: sans-serif;
+	font-weight: lighter;
+	line-height: 1.5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+  
+/* Create four equal columns that sits next to each other */
+.column {
+	flex: 20%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+.column img {
+	margin-top: 8px;
+	/* vertical-align: middle; */
+	width: 100%;
+}
+
+.imgcontainer {
+	position: relative;
+	width: 100%;
+}
+.image {
+	display: block;
+	/* width: auto; */
+	/* height: auto; */
+}
+  
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 4px;
+	height: 100%;
+	/* width: 82%; */
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #363854;
+}
+  
+.imgcontainer:hover .overlay {
+	opacity: 1;
+}
+  
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.column {
+		flex: 45%;
+		max-width: 50%;
+	}
+	.container {
+		display: inline;
+		/* width: 100%; */
+		/* align-items: center; */
+	}
+	.me {
+		width: 220px;
+		/* border-radius: 50%; */
+		padding-top: 0;
+		padding-bottom: 10px;
+		float: left;
   }
-  to {
-    transform: rotate(360deg);
+  #about-me {
+		display: inline;
+  }
+  #about {
+    padding-left: 0vw;
   }
 }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+} 
