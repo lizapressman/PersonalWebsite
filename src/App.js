@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import About from './components/About'
 import Experience from './components/Experience'
 import Break from './components/Break'
+import Break2 from './components/Break2'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 
@@ -18,6 +19,9 @@ class App extends Component {
         <Header></Header>
         <div id="sections">
           <About></About>
+        </div>
+        <Break2></Break2>
+        <div id="sections">
           <Experience></Experience>
         </div>
         <Break></Break>

@@ -14,7 +14,13 @@
 	height: 60vh; 
 	background-attachment: fixed;
 	background-position: center;
-	opacity: .9;
+	/* opacity: .9; */
+}
+#break2 {
+	height: 40vh; 
+	background-attachment: fixed;
+	background-position: center;
+	/* opacity: .9; */
 }
 .title {
 	padding-top: 40vh;
@@ -43,12 +49,14 @@
   /* float: inline-start; */
   display: flex;
   justify-content: center;
+  padding-bottom: 10vh;
 }
 #about {
   padding-left: 5vw;
 }
 #experience {
   justify-content: center;
+  padding-bottom: 10vh;
 }
 #portfolio {
   justify-content: center;
