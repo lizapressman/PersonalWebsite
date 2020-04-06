@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 export default class Portfolio extends Component {
   render() {
     return (
@@ -10,7 +11,7 @@ export default class Portfolio extends Component {
         //     <p>Phone: (510) 410-0565 <br></br> Email: lpressma@u.rochester.edu</p>
         // </div>
 
-        <div id="contact" style={{"background-image": "url(../images/fall.jpeg)"}}>
+        <div id="contact" style={{"background-image": "url(./images/fall.jpeg)"}}>
           <div class = "title" >
               <h1>Contact Me</h1>
               {/* <p style={{"color": "black"}}>Phone: (510) 410-0565<br></br>Email: lpressma@u.rochester.edu</p> */}
