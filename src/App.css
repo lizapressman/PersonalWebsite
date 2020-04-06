@@ -20,7 +20,7 @@
 	padding-top: 40vh;
 	color: white;
 	font-family: sans-serif;
-	padding-left: 100px;
+	/* padding-left: 100px; */
 }
 .title h1{
 	font-size: 70px;
@@ -55,12 +55,12 @@
 }
 #contact p{
 	text-align: center;
+
 }
 #contact {
 	height: 100vh; 
 	background-attachment: fixed;
 	background-position: center;
-	opacity: .9;
 }
 hr {
   width:100%;
@@ -152,7 +152,7 @@ li {
 }
   
 .imgcontainer:hover .overlay {
-	opacity: 1;
+	opacity: .85;
 }
   
 .text {
