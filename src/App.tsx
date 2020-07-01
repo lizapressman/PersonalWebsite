@@ -19,7 +19,7 @@ class App extends Component {
         <div id="sections">
           <About></About>
         </div>
-        {/* <Break num="break2" src="./images/alaska.jpeg"></Break> */}
+        <Break num="break2" src="./images/alaska.jpeg"></Break>
         <div id="sections">
           <Experience></Experience>
         </div>

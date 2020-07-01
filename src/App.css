@@ -17,12 +17,14 @@
 	height: 60vh; 
 	background-attachment: fixed;
 	background-position: center;
+	visibility: visible;
 	/* opacity: .9; */
 }
 #break2 {
 	height: 30vh; 
 	background-attachment: fixed;
 	background-position: center;
+	visibility: visible;
 	/* opacity: .9; */
 }
 .title {
@@ -191,8 +193,6 @@ li {
 	}
 	.container {
 		display: inline;
-		/* width: 100%; */
-		/* align-items: center; */
 	}
 	.me {
 		width: 220px;

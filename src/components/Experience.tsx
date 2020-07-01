@@ -30,7 +30,7 @@ export const Experience = () => {
 			<div className="experienceBox">
 				<h2><b>Target</b></h2>
 				<h3>Software Engineering Intern | June 2020 - PRESENT</h3>
-				<p>Did oh so many a tutorial.</p>
+				{/* <p>Did oh so many a tutorial.</p> */}
 			</div>
 
 			<div className="experienceBox">
