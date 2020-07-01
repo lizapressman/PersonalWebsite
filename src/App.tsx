@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import './navigation.css';
-import Header from './components/Header'
-import NavBar from './components/NavBar'
-import About from './components/About'
-import Experience from './components/Experience'
+import { Header } from './components/Header'
+import { NavBar } from './components/NavBar'
+import { About } from './components/About'
+import { Experience } from './components/Experience'
 import { Break } from './components/Break'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
+import { Portfolio } from './components/Portfolio'
+import { Contact } from './components/Contact'
 
 
 
@@ -19,7 +19,7 @@ class App extends Component {
         <div id="sections">
           <About></About>
         </div>
-        <Break num="break2" src="./images/alaska.jpeg"></Break>
+        {/* <Break num="break2" src="./images/alaska.jpeg"></Break> */}
         <div id="sections">
           <Experience></Experience>
         </div>
@@ -28,7 +28,7 @@ class App extends Component {
           <Portfolio></Portfolio>
         </div>
         <Contact></Contact>
-        <p style={{ "textAlign": "center" }}>Copyright © 2019 Liza Pressman, all rights reserved</p>
+        <p style={{ "textAlign": "center" }}>Copyright © 2020 Liza Pressman, all rights reserved</p>
         <NavBar></NavBar>
       </div>
     );

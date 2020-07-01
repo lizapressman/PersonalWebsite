@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,600');
+
+
 #sections {
   padding-right: 10vw;	
   padding-left: 10vw;
@@ -17,7 +20,7 @@
 	/* opacity: .9; */
 }
 #break2 {
-	height: 40vh; 
+	height: 30vh; 
 	background-attachment: fixed;
 	background-position: center;
 	/* opacity: .9; */
@@ -25,7 +28,7 @@
 .title {
 	padding-top: 40vh;
 	color: white;
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	/* padding-left: 100px; */
 }
 .title h1{
@@ -49,7 +52,7 @@
   /* float: inline-start; */
   display: flex;
   justify-content: center;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }
 #about {
   padding-left: 5vw;
@@ -58,12 +61,19 @@
   justify-content: center;
   padding-bottom: 10vh;
 }
+.experienceBox {
+	background-color: #e0e0e0;
+	margin: 1vh;
+	padding: 2vh;
+	border-radius: 15px;
+	
+}
 #portfolio {
   justify-content: center;
+  padding-bottom: 5vh;
 }
 #contact p{
 	text-align: center;
-
 }
 #contact {
 	height: 100vh; 
@@ -82,37 +92,33 @@ hr {
 	align-items: stretch;
 }
 h1 {
-	padding-top: 5%;
-	font-size: 30px;
+	/* padding-top: 5%; */
+	/* font-size: 30px; */
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: lighter;
 }
 h2 {
-	font-size: 22px;
+	/* font-size: 22px; */
 	text-align: left;
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: lighter; 
 }
 h3 {
-	font-size: 15px;
+	/* font-size: 15px; */
 	text-align: left;
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: lighter; 
 }
 p {
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: lighter;
-	line-height: 1.5;
-	/* text-align: center; */
-}
-body {
-	/* background-color: #e0e0e0; */
+	/* line-height: 1.5; */
 }
 li {
-	font-family: sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: lighter;
-	line-height: 1.5;
+	/* line-height: 1.5; */
 }
 
 
@@ -209,4 +215,20 @@ li {
 		flex: 100%;
 		max-width: 100%;
 	}
+	#break {
+		height: 0;
+		visibility: hidden;
+	}
+	#break2 {
+		height: 0;
+		visibility: hidden;
+	}
+	#experience {
+		background-color: #e0e0e0;
+		padding-left: 2vw;
+		padding-right: 2vw;
+
+		/* color: black; */
+	}
+
 } 
