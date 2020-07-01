@@ -12,7 +12,7 @@
 	background-attachment: fixed;
 	background-position: center;
 	opacity: .9;
-	/* background-image: "url(images/salt.jpeg)"; */
+	background-image: url("/images/salt.jpeg");
 }
 #break {
 	height: 60vh; 
@@ -222,6 +222,7 @@ li {
 	}
 	#header {
 		background-color: #363854;
-		background-image: none;
+		background-image: url("/images/header.jpeg");
+		/* background-image: none; */
 	}
 } 
