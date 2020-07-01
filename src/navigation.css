@@ -32,11 +32,10 @@
     text-decoration: none;
 }
 
-/* .menu .active {
-    background-color: #e0e0e0;
-    color: white;
-} */
-
 .menu li a:hover {
     background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 600px) {
+
 }

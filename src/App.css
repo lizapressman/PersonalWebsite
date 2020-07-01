@@ -12,6 +12,7 @@
 	background-attachment: fixed;
 	background-position: center;
 	opacity: .9;
+	/* background-image: "url(images/salt.jpeg)"; */
 }
 #break {
 	height: 60vh; 
@@ -215,20 +216,12 @@ li {
 		flex: 100%;
 		max-width: 100%;
 	}
-	#break {
+	#break, #break2 {
 		height: 0;
 		visibility: hidden;
 	}
-	#break2 {
-		height: 0;
-		visibility: hidden;
+	#header {
+		background-color: #363854;
+		background-image: none;
 	}
-	#experience {
-		background-color: #e0e0e0;
-		padding-left: 2vw;
-		padding-right: 2vw;
-
-		/* color: black; */
-	}
-
 } 
