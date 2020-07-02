@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import './navigation.css';
 import { Header } from './components/Header'
 import { NavBar } from './components/NavBar'
 import { About } from './components/About'
@@ -15,6 +15,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <NavBar></NavBar>
         <Header></Header>
         <div id="sections">
           <About></About>
@@ -29,7 +30,7 @@ class App extends Component {
         </div>
         <Contact></Contact>
         <p style={{ "textAlign": "center" }}>Copyright © 2020 Liza Pressman, all rights reserved</p>
-        <NavBar></NavBar>
+
       </div>
     );
   }

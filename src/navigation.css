@@ -37,5 +37,8 @@
 }
 
 @media screen and (max-width: 600px) {
-
+    /* .menu {
+        display: none;
+    } */
+    .menu li a {display: none;}
 }
