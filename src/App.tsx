@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Header } from './components/Header'
 import { NavBar } from './components/NavBar'
@@ -8,7 +7,6 @@ import { Experience } from './components/Experience'
 import { Break } from './components/Break'
 import { Portfolio } from './components/Portfolio'
 import { Contact } from './components/Contact'
-
 
 
 class App extends Component {
