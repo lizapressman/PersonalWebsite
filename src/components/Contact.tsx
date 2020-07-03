@@ -21,9 +21,9 @@ export const Contact = () => {
           <a href="https://github.com/lizapressman"><img src="https://img.icons8.com/nolan/64/github.png" /></a>
           <a href="https://www.linkedin.com/in/lizapressman/"><img src="https://img.icons8.com/nolan/64/linkedin.png" /></a>
         </p> */}
-        <p style={{ "backgroundColor": "white", "padding": "2vh", "marginLeft": "35vw", "marginRight": "35vw", "color": "black" }}>
-          <a href="mailto:lpressma@u.rochester.edu"><img src="https://img.icons8.com/carbon-copy/100/000000/email.png" /></a>
+        <p>
           <a href="https://github.com/lizapressman"><img src="https://img.icons8.com/wired/64/000000/github.png" /></a>
+          <a href="mailto:lpressma@u.rochester.edu"><img src="https://img.icons8.com/carbon-copy/100/000000/email.png" /></a>
           <a href="https://www.linkedin.com/in/lizapressman/"><img src="https://img.icons8.com/wired/64/000000/linkedin.png" /></a>
         </p>
       </div>

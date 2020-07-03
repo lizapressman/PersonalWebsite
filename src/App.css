@@ -52,30 +52,29 @@
 }
 
 #about-me {
-  /* float: inline-start; */
   display: flex;
   justify-content: center;
-  padding-bottom: 5vh;
+  padding-top: 6vh;
 }
 #about {
   padding-left: 5vw;
 }
 #experience {
   justify-content: center;
-  padding-bottom: 10vh;
+  padding-top: 6vh;
 }
 .experienceBox {
-	background-color: #e0e0e0;
-	margin: 1vh;
+	background-color: #88888850;
+	margin: 2vh;
 	padding: 2vh;
 	border-radius: 15px;
-	
 }
 #portfolio {
   justify-content: center;
   padding-bottom: 5vh;
+  padding-top: 6vh;
 }
-#contact p{
+#contact p {
 	text-align: center;
 }
 #contact {
@@ -83,11 +82,20 @@
 	background-attachment: fixed;
 	background-position: center;
 }
+#contact img {
+	background-color: white;
+	padding: 1vw;
+	margin: 1vw;
+	border-radius: 30%;
+	box-shadow: 8px 8px black;
+	/* box-shadow: 0 8px 10px 0 #363854, 0 8px 20px #363854; */
+}
 hr {
   width:100%;
 }
 .me {
-	padding-top: 75px;
+	/* padding-top: 75px; */
+	padding-top: 3vh;
 }
 .container {
 	display: flex;
@@ -123,7 +131,6 @@ li {
 	font-weight: lighter;
 	/* line-height: 1.5; */
 }
-
 
 
 .row {
@@ -195,19 +202,19 @@ li {
 	.container {
 		display: inline;
 	}
+	#about-me {
+		/* display: inline; */
+		flex-wrap: wrap;
+		padding-top: 8vh;
+	} 
 	.me {
-		width: 220px;
-		/* border-radius: 50%; */
+		/* width: 220px; */
 		padding-top: 0;
-		padding-bottom: 10px;
-		float: left;
-  }
-  #about-me {
-		display: inline;
-  }
-  #about {
-    padding-left: 0vw;
-  }
+		padding-bottom: 1vh;
+	}
+	#about {
+		padding-left: 0vw;
+	}
 }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */

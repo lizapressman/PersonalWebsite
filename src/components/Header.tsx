@@ -4,7 +4,6 @@ import React from 'react'
 export const Header = () => {
   return (
 
-    // <div id="header" style={{ "backgroundImage": "url(./images/salt.jpeg)" }}>
     <div id="header">
       <div className="title">
         <h3>Hey,</h3>
