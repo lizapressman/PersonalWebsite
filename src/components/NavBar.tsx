@@ -13,7 +13,7 @@ export const NavBar = () => {
   return (
     // <nav className="menu" id="menu">
     //   <ul id="navContainer">
-    //     <li className="navelem"><a href="Resume.pdf">Resume</a></li>
+    //     <li className="navelem"><a href="resume.pdf">Resume</a></li>
     //     <li className="navelem"><a href="#contact">Contact</a></li>
     //     <li className="navelem"><a href="#portfolio">Portfolio</a></li>
     //     <li className="navelem"><a href="#experience">Experience</a></li>
@@ -37,11 +37,11 @@ export const NavBar = () => {
             <NavDropdown.Item href="https://github.com/lizapressman">Github</NavDropdown.Item>
             <NavDropdown.Item href="https://www.linkedin.com/in/lizapressman/">LinkedIn</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="Resume.pdf">Resume</NavDropdown.Item>
+            <NavDropdown.Item href="resume.pdf">Resume</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link href="Resume.pdf">Resume</Nav.Link>
+          <Nav.Link href="resume.pdf">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
