@@ -37,11 +37,11 @@ export const NavBar = () => {
             <NavDropdown.Item href="https://github.com/lizapressman">Github</NavDropdown.Item>
             <NavDropdown.Item href="https://www.linkedin.com/in/lizapressman/">LinkedIn</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="resume.pdf">Resume</NavDropdown.Item>
+            <NavDropdown.Item href="Resume.pdf">Resume</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link href="resume.pdf">Resume</Nav.Link>
+          <Nav.Link href="Resume.pdf">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
