@@ -35,17 +35,17 @@ export const Experience = () => {
 			<hr></hr>
 			<div className="experienceBox">
 				<h2><b>Personal Website | React</b></h2>
-				<a href="https://github.com/lizapressman/PersonalWebsite">github.com/lizapressman/PersonalWebsite</a>
+				<a className="projectLink" href="https://github.com/lizapressman/PersonalWebsite">github.com/lizapressman/PersonalWebsite</a>
 				<p>Personal portfolio site written in React using Typescript and custom CSS</p>
 			</div>
 			<div className="experienceBox">
 				<h2><b>ResumeToWebsite | React</b></h2>
-				<a href="https://github.com/lizapressman/ResumeToWebsite">github.com/lizapressman/ResumeToWebsite</a>
+				<a className="projectLink" href="https://github.com/lizapressman/ResumeToWebsite">github.com/lizapressman/ResumeToWebsite</a>
 				<p>Resume Parser that produces a resulting html portfolio site based on the resume</p>
 			</div>
 			<div className="experienceBox">
 				<h2><b>Therapy Journaling Application | React</b></h2>
-				<a href="https://github.com/Mayshinlyan/TherapyJournalling">github.com/Mayshinlyan/TherapyJournalling</a>
+				<a className="projectLink" href="https://github.com/Mayshinlyan/TherapyJournalling">github.com/Mayshinlyan/TherapyJournalling</a>
 				<p>Application using MERN stack for personalized journaling with automated feedback based on mood &amp; text analysis</p>
 			</div>
 			<div className="experienceBox">

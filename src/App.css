@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,500,600');
 
-a {
+.projectLink {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	display: inline-block;
