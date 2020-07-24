@@ -1,6 +1,48 @@
 import React from 'react'
+import SkillBar from 'react-skillbars';
 
 export const Experience = () => {
+	const colors = {
+		bar: '#3bdbc3',
+		title: {
+			text: {
+				hue: 193,
+				saturation: 54,
+				level: 43
+			},
+			background: {
+				hue: 171,
+				saturation: 73,
+				level: 86
+			},
+
+		}
+	}
+	const skills = [
+		{ type: "Java", level: 90 },
+		{ type: "Javascript", level: 75 },
+		{ type: "Python", level: 50 },
+		{ type: "HTML", level: 80 },
+		{ type: "CSS", level: 55 },
+		{ type: "LATEX", level: 50 },
+		{ type: "C", level: 45 },
+		{ type: "Typescript", level: 40 },
+		{ type: "SQL", level: 30 },
+		// { type: "Assembly", level: 20 },
+		{ type: "React", level: 80 },
+		{ type: "Git", level: 85 },
+		{ type: "Springboot", level: 65 },
+		{ type: "Vue", level: 45 },
+		{ type: "Docker", level: 25 },
+		{ type: "Flask", level: 15 },
+		{ type: "AWS", level: 15 },
+		// { type: "jOOQ", level: 10 },
+		{ type: "Illustrator", level: 85 },
+		{ type: "Procreate", level: 90 },
+		// { type: "Photoshop", level: 55 },
+		{ type: "Invision", level: 40 },
+	];
+
 	return (
 
 		<div id="experience" >
@@ -34,30 +76,38 @@ export const Experience = () => {
 			<h1>Projects</h1>
 			<hr></hr>
 			<div className="experienceBox">
-				<h2><b>Personal Website | React</b></h2>
+				<h2><b>Personal Website | React, Typescript, CSS</b></h2>
 				<a className="projectLink" href="https://github.com/lizapressman/PersonalWebsite">github.com/lizapressman/PersonalWebsite</a>
 				<p>Personal portfolio site written in React using Typescript and custom CSS</p>
 			</div>
 			<div className="experienceBox">
-				<h2><b>ResumeToWebsite | React</b></h2>
+				<h2><b>ResumeToWebsite | Python, React, Flask</b></h2>
+				<a className="projectLink" href="https://github.com/lizapressman/ResumeToWebsiteWebsite">github.com/lizapressman/ResumeToWebsiteWebsite</a>
 				<a className="projectLink" href="https://github.com/lizapressman/ResumeToWebsite">github.com/lizapressman/ResumeToWebsite</a>
-				<p>Resume Parser that produces a resulting html portfolio site based on the resume</p>
+				<p>React website that takes user inputted resume and parses it using Python backend to publish resulting HTML portfolio site</p>
 			</div>
 			<div className="experienceBox">
-				<h2><b>Therapy Journaling Application | React</b></h2>
+				<h2><b>Therapy Journaling Application | MERN</b></h2>
 				<a className="projectLink" href="https://github.com/Mayshinlyan/TherapyJournalling">github.com/Mayshinlyan/TherapyJournalling</a>
 				<p>Application using MERN stack for personalized journaling with automated feedback based on mood &amp; text analysis</p>
 			</div>
 			<div className="experienceBox">
+				<h2><b>Connect Four AI | Java</b></h2>
+				<a className="projectLink" href="https://github.com/lizapressman/ConnectFour">github.com/lizapressman/ConnectFour</a>
+				<p>Implementation of Connect Four using a minimax algorithm along with a heuristic function and alpha-beta pruning (with fixed depth cutoff)</p>
+			</div>
+			{/* <div className="experienceBox">
 				<h2><b>Dijkstra’s Algorithm | Java</b></h2>
 				<p>Implemented a program using java graphics to find the shortest path between any two points in New York State</p>
-			</div>
+			</div> */}
+
+			<h1>Skills</h1>
+			<hr></hr>
 			<div className="experienceBox">
-				<h2><b>Connect Four AI | Java</b></h2>
-				<p>Implemented a minimax algorithm along with a heuristic function and alpha-beta pruning (with a fixed depth cutoff)</p>
+				<SkillBar skills={skills} colors={colors} />
 			</div>
 
-			<h1>Courses</h1>
+			{/* <h1>Courses</h1>
 			<hr></hr>
 			<div className="experienceBox">
 				<div className="container">
@@ -97,7 +147,7 @@ export const Experience = () => {
 						</ul>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 
 	)
