@@ -3,25 +3,9 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import Form from 'react-bootstrap/Form'
-import FormControl from 'react-bootstrap/FormControl'
-import Button from 'react-bootstrap/Button'
-
-// import logo from './../images/logo.jpg'
 
 export const NavBar = () => {
   return (
-    // <nav className="menu" id="menu">
-    //   <ul id="navContainer">
-    //     <li className="navelem"><a href="resume.pdf">Resume</a></li>
-    //     <li className="navelem"><a href="#contact">Contact</a></li>
-    //     <li className="navelem"><a href="#portfolio">Portfolio</a></li>
-    //     <li className="navelem"><a href="#experience">Experience</a></li>
-    //     <li className="navelem"><a href="#about-me">About</a></li>
-    //     <li className="navelem"><a href="#header">Home</a></li>
-    //     {/* <li class = "navelem"><a href="#header"><img src={logo} class ="navelem" style={{"height":"2vh"}}/></a></li> */}
-    //   </ul>
-    // </nav>
 
     <Navbar fixed="top" bg="light" expand="lg">
       <Navbar.Brand href="#header">Liza Pressman</Navbar.Brand>
@@ -34,14 +18,14 @@ export const NavBar = () => {
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
           <NavDropdown title="Links" id="basic-nav-dropdown">
-            <NavDropdown.Item href="https://github.com/lizapressman">Github</NavDropdown.Item>
-            <NavDropdown.Item href="https://www.linkedin.com/in/lizapressman/">LinkedIn</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/lizapressman" style={{ color: "#328fa9" }}>Github</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.linkedin.com/in/lizapressman/" style={{ color: "#328fa9" }}>LinkedIn</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="Resume.pdf">Resume</NavDropdown.Item>
+            <NavDropdown.Item href="Resume.pdf" style={{ color: "#328fa9" }}>Resume</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link href="Resume.pdf">Resume</Nav.Link>
+          <Nav.Link href="Resume.pdf" style={{ color: "#328fa9" }}>Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
