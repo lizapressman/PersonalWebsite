@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,500,600');
 
-Aa {
+a {
 	color: #328fa9;
+}
+a:hover {
+	text-decoration: none;
 }
 .skillButtons {
 	display: flex;
@@ -13,8 +16,9 @@ Aa {
 .skillButtons Button {
 	margin: 20px;
 	padding: 20px;
-	background-color: #c1f5ee;
+	/* background-color: #c1f5ee; */
 	color: #328fa9;
+	background-color: white;
 }
 
 .projectLink {
@@ -23,12 +27,17 @@ Aa {
 	display: inline-block;
 	width: 100%;
 }
+.githubLogo {
+	max-width: 30px;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
 
 #sections {
   padding-right: 10vw;	
   padding-left: 10vw;
   justify-content: center;
-  /* background-color: #6898a6; */
+  background-color: #ddecf0;
   /* width: 100vw; */
 }
 #header {
@@ -248,6 +257,9 @@ li {
 		justify-content: center ; /* for horizontal aligning of child divs */
 		align-items : center ; /* for vertical aligning */
 	}
+	.githubLogo {
+		display: none;
+	}
 }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -261,13 +273,12 @@ li {
 		visibility: hidden;
 	}
 	#header {
-		background-color: #363854;
-		background-image: url("/images/header.jpeg");
-		/* background-image: none; */
+		background-color: #328fa9;
+		background-image: none;
 	}
 	#contact {
-		background-color: #363854;
-		background-image: url("/images/header.jpeg");
+		background-color: #328fa9;
+		background-image: none;
 		opacity: .9;
 	}
 } 
