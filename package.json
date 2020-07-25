@@ -15,7 +15,7 @@
     "react-photo-gallery": "^8.0.0",
     "react-scripts": "^3.4.1",
     "react-skillbars": "^1.6.1",
-    "typescript": "^3.9.6",
+    "typescript": "^3.9.6"
   },
   "scripts": {
     "start": "PUBLIC_URL=/ react-scripts start",
