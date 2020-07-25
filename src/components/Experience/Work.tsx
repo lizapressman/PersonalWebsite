@@ -26,9 +26,8 @@ export const Work = () => {
                 <h2><b>Target</b></h2>
                 <h3>Software Engineering Intern | June 2020 - PRESENT</h3>
                 <hr />
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <i onClick={() => expandTarget()}
-                        style={isTargetShown ? openStyle : closedStyle}></i>
+                <div onClick={() => expandTarget()} style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <i style={isTargetShown ? openStyle : closedStyle}></i>
                 </div>
                 {isTargetShown && (
                     <>
@@ -51,9 +50,8 @@ export const Work = () => {
                 <h2><b>DoctorPlan</b></h2>
                 <h3>Software Engineering Intern | June 2019 - August 2019</h3>
                 <hr />
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <i onClick={() => expandDoctorPlan()}
-                        style={isDoctorPlanShown ? openStyle : closedStyle}></i>
+                <div onClick={() => expandDoctorPlan()} style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <i style={isDoctorPlanShown ? openStyle : closedStyle}></i>
                 </div>
                 {isDoctorPlanShown && (
                     <>
