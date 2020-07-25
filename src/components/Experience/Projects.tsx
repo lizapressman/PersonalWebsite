@@ -7,23 +7,23 @@ export const Projects = () => {
             <hr></hr>
             <div className="experienceBox">
                 <h2><b>Personal Website | React, Typescript, CSS</b></h2>
-                <a className="projectLink" href="https://github.com/lizapressman/PersonalWebsite">github.com/lizapressman/PersonalWebsite</a>
+                <a className="projectLink" href="https://github.com/lizapressman/PersonalWebsite"><img src="images/github.png" alt="githubLogo" className="githubLogo" /> github.com/lizapressman/PersonalWebsite</a>
                 <p>Personal portfolio site written in React using Typescript and custom CSS</p>
             </div>
             <div className="experienceBox">
-                <h2><b>ResumeToWebsite | Python, React, Flask</b></h2>
-                <a className="projectLink" href="https://github.com/lizapressman/ResumeToWebsiteWebsite">github.com/lizapressman/ResumeToWebsiteWebsite</a>
-                <a className="projectLink" href="https://github.com/lizapressman/ResumeToWebsite">github.com/lizapressman/ResumeToWebsite</a>
+                <h2><b>Resume To Website | Python, React, Flask</b></h2>
+                <a className="projectLink" href="https://github.com/lizapressman/ResumeToWebsiteWebsite"><img src="images/github.png" alt="githubLogo" className="githubLogo" /> github.com/lizapressman/ResumeToWebsiteWebsite</a>
+                <a className="projectLink" href="https://github.com/lizapressman/ResumeToWebsite"><img src="images/github.png" alt="githubLogo" className="githubLogo" /> github.com/lizapressman/ResumeToWebsite</a>
                 <p>React website that takes user inputted resume and parses it using Python backend to publish resulting HTML portfolio site</p>
             </div>
             <div className="experienceBox">
                 <h2><b>Therapy Journaling Application | MERN</b></h2>
-                <a className="projectLink" href="https://github.com/Mayshinlyan/TherapyJournalling">github.com/Mayshinlyan/TherapyJournalling</a>
+                <a className="projectLink" href="https://github.com/Mayshinlyan/TherapyJournalling"><img src="images/github.png" alt="githubLogo" className="githubLogo" /> github.com/Mayshinlyan/TherapyJournalling</a>
                 <p>Application using MERN stack for personalized journaling with automated feedback based on mood &amp; text analysis</p>
             </div>
             <div className="experienceBox">
                 <h2><b>Connect Four AI | Java</b></h2>
-                <a className="projectLink" href="https://github.com/lizapressman/ConnectFour">github.com/lizapressman/ConnectFour</a>
+                <a className="projectLink" href="https://github.com/lizapressman/ConnectFour"><img src="images/github.png" alt="githubLogo" className="githubLogo" /> github.com/lizapressman/ConnectFour</a>
                 <p>Implementation of Connect Four using a minimax algorithm along with a heuristic function and alpha-beta pruning (with fixed depth cutoff)</p>
             </div>
             {/* <div className="experienceBox">

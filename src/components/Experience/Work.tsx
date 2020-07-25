@@ -4,13 +4,12 @@ export const Work = () => {
     const [isTargetShown, setIsTargetShown] = useState(false);
     const [isDoctorPlanShown, setIsDoctorPlanShown] = useState(false);
 
-
     const closedStyle = {
-        border: "solid black", borderWidth: "0 3px 3px 0", display: "inline - block", margin: "10px", padding: "8px", transform: "rotate(45deg)", WebkitTransform: "rotate(45deg)"
+        border: "solid white", borderWidth: "0 3px 3px 0", display: "inline - block", margin: "10px", padding: "8px", transform: "rotate(45deg)", WebkitTransform: "rotate(45deg)"
     }
 
     const openStyle = {
-        border: "solid black", borderWidth: "0 3px 3px 0", display: "inline - block", margin: "10px", padding: "8px", transform: "rotate(-135deg)", WebkitTransform: "rotate(-135deg)"
+        border: "solid white", borderWidth: "0 3px 3px 0", display: "inline - block", margin: "10px", padding: "8px", transform: "rotate(-135deg)", WebkitTransform: "rotate(-135deg)"
     }
 
     const expandTarget = () => {
@@ -26,6 +25,7 @@ export const Work = () => {
             <div className="experienceBox" >
                 <h2><b>Target</b></h2>
                 <h3>Software Engineering Intern | June 2020 - PRESENT</h3>
+                <hr />
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <i onClick={() => expandTarget()}
                         style={isTargetShown ? openStyle : closedStyle}></i>
@@ -50,6 +50,7 @@ export const Work = () => {
             <div className="experienceBox" >
                 <h2><b>DoctorPlan</b></h2>
                 <h3>Software Engineering Intern | June 2019 - August 2019</h3>
+                <hr />
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <i onClick={() => expandDoctorPlan()}
                         style={isDoctorPlanShown ? openStyle : closedStyle}></i>

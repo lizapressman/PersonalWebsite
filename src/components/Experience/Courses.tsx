@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Accordion from 'react-bootstrap/Accordion'
 import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button';
 
 
 export const Courses = () => {
@@ -66,25 +67,25 @@ export const Courses = () => {
             <div className="experienceBox" style={{ textAlign: "center" }}>
                 <Accordion defaultActiveKey="0">
                     <Card>
-                        <Accordion.Toggle as={Card.Header} eventKey="0" onClick={() => { setView("computerScience") }}>
+                        <Accordion.Toggle style={{ color: "#328fa9", backgroundColor: "rgba(0,0,0,.03)", padding: "10px" }} variant="outline-light" as={Button} eventKey="0" onClick={() => { setView("computerScience") }}>
                             Computer Science
-                </Accordion.Toggle>
+                        </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
                             <Subject />
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} eventKey="1" onClick={() => { setView("mathematics") }}>
+                        <Accordion.Toggle style={{ color: "#328fa9", backgroundColor: "rgba(0,0,0,.03)", padding: "10px" }} variant="outline-light" as={Button} eventKey="1" onClick={() => { setView("mathematics") }}>
                             Mathematics
-                </Accordion.Toggle>
+                        </Accordion.Toggle>
                         <Accordion.Collapse eventKey="1">
                             <Subject />
                         </Accordion.Collapse>
                     </Card>
                     <Card>
-                        <Accordion.Toggle as={Card.Header} eventKey="2" onClick={() => { setView("studioArt") }}>
+                        <Accordion.Toggle style={{ color: "#328fa9", backgroundColor: "rgba(0,0,0,.03)", padding: "10px" }} variant="outline-light" as={Button} eventKey="2" onClick={() => { setView("studioArt") }}>
                             Studio Art
-                </Accordion.Toggle>
+                        </Accordion.Toggle>
                         <Accordion.Collapse eventKey="2">
                             <Subject />
                         </Accordion.Collapse>

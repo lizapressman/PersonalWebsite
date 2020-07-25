@@ -18,14 +18,14 @@ export const NavBar = () => {
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
           <NavDropdown title="Links" id="basic-nav-dropdown">
-            <NavDropdown.Item href="https://github.com/lizapressman">Github</NavDropdown.Item>
-            <NavDropdown.Item href="https://www.linkedin.com/in/lizapressman/">LinkedIn</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/lizapressman" style={{ color: "#328fa9" }}>Github</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.linkedin.com/in/lizapressman/" style={{ color: "#328fa9" }}>LinkedIn</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="Resume.pdf">Resume</NavDropdown.Item>
+            <NavDropdown.Item href="Resume.pdf" style={{ color: "#328fa9" }}>Resume</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link href="Resume.pdf">Resume</Nav.Link>
+          <Nav.Link href="Resume.pdf" style={{ color: "#328fa9" }}>Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

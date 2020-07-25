@@ -6,17 +6,17 @@ const Skills = () => {
     const [skills, setSkills] = useState("")
 
     const colors = {
-        bar: '#3bdbc3',
+        bar: '#328fa9',
         title: {
             text: {
                 hue: 193,
-                saturation: 54,
-                level: 43
+                saturation: 58,
+                level: 23
             },
             background: {
-                hue: 171,
-                saturation: 73,
-                level: 86
+                hue: 194,
+                saturation: 0,
+                level: 100
             },
 
         }
