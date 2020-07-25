@@ -5,7 +5,7 @@ import { NavBar } from './components/NavBar'
 import { About } from './components/About'
 import { Experience } from './components/Experience'
 import { Break } from './components/Break'
-import { Portfolio } from './components/Portfolio'
+import { Art } from './components/Art'
 import { Contact } from './components/Contact'
 
 
@@ -24,7 +24,7 @@ class App extends Component {
         </div>
         <Break num="break" src="./images/art.jpeg"></Break>
         <div id="sections">
-          <Portfolio></Portfolio>
+          <Art></Art>
         </div>
         <Contact></Contact>
         <p style={{ "textAlign": "center" }}>Copyright © 2020 Liza Pressman, all rights reserved</p>
