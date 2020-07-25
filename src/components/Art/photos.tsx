@@ -48,10 +48,10 @@ export const photos = [
         title: "Graphite sketch",
     },
     {
-        src: "art/7.jpg",
+        src: "art/7.JPG",
         width: 3.47,
         height: 6.18,
-        srcSet: "art/7.jpg",
+        srcSet: "art/7.JPG",
         title: "Box sculpture made from found objects",
         size: "100vw"
     },
