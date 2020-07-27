@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import SkillBar from 'react-skillbars';
 import Button from 'react-bootstrap/Button';
 
@@ -47,6 +47,18 @@ const Skills = () => {
         { type: "Invision", level: 40 },
     ];
 
+    const Bar = useMemo(() => {
+        return (
+            <SkillBar skills={
+                skills === "languages" ? languages :
+                    skills === "technologies" ? technologies :
+                        skills === "designTools" ? designTools :
+                            []}
+                colors={colors}
+            />
+        )
+    }, [skills, languages, technologies, designTools, colors])
+
     return (
         <>
             <h1>Skills</h1>
@@ -57,14 +69,7 @@ const Skills = () => {
                     <Button variant="outline-light" onClick={() => { setSkills("technologies") }} onBlur={() => { setSkills("") }}>Technologies</Button>
                     <Button variant="outline-light" onClick={() => { setSkills("designTools") }} onBlur={() => { setSkills("") }}>Design Tools</Button>
                 </div>
-
-                <SkillBar skills={
-                    skills === "languages" ? languages :
-                        skills === "technologies" ? technologies :
-                            skills === "designTools" ? designTools :
-                                []}
-                    colors={colors}
-                />
+                {Bar}
             </div>
         </>
     )
